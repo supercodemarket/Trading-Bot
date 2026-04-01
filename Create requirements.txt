@@ -1,0 +1,16 @@
+with open("trading_bot/README.md", "w") as f:
+    f.write("""
+# Trading Bot (Binance Futures Testnet)
+
+## Features
+- Market & Limit Orders
+- CLI-like function interface
+- Logging + Error Handling
+
+## Setup
+pip install -r requirements.txt
+
+## Run Example
+run("BTCUSDT", "BUY", "MARKET", 0.001)
+run("BTCUSDT", "SELL", "LIMIT", 0.001, 60000)
+""")
